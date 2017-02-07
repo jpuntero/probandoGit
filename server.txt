@@ -12,6 +12,11 @@
               description="User database that can be updated and saved"
               factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
               pathname="conf/tomcat-users.xml" />
+     <Resource name="resorceDelCopon" auth="Container"
+              type="blablablae"
+              description="blebleble"
+              factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+              pathname="conf/tomcat-users.xml" />         
   </GlobalNamingResources>
  
   <Service name="Catalina">
